@@ -16,6 +16,7 @@ The comparison of prediction methods is based on:
 - Mean Squared Error (MSE)
 - Mean Absolute Error (MAE)
 - Median Absolute Error (MedAE).
+
 We compare the following models:
 - Random Forest
 - K-Nearest Neighbors
