@@ -25,5 +25,6 @@ We compare the following models:
 - Lasso Regression
 - Elastic Net Regression
 - Support Vector Machine.
+
 The model with the lowest MSE, MAE, and MedAE values is selected as the optimal forecasting method.\
 Based on the error metrics, the random forest regression outperforms other models. The table that shows the actual and predicted values for each model and each instance is also helpful to understand the performance of the models. Overall, the code is well-organized and easy to follow.
