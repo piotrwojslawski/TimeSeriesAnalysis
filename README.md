@@ -2,10 +2,11 @@
 This dataset 'train_target1.xlsx' contains data from x1 to x29 (features) and 'target1' for specific datetime. The purpose of this code is to predict 'target1' and compare different prediction methods to determine the optimal forecasting method.
 
 # Exploring data
-The first step is to present 'target1' on the distribution plot.\
-Data is standardized using StandardScaler() to convert it on a unit scale (mean=0 and variance=1) as it is a condition for optimal performance of many machine learning algorithms.\
-Principal Component Analysis (PCA) is used to reduce the number of variables from 29 to 2 to visualize the data.\
-Outlier observations are removed using sigma_clip() and drop() functions to eliminate the heavy tails of the 'target1' distribution plot.\
+1. The first step is to present 'target1' on the distribution plot.
+2. Data is standardized using StandardScaler() to convert it on a unit scale (mean=0 and variance=1) as it is a condition for optimal performance of many machine learning algorithms.
+3. Principal Component Analysis (PCA) is used to reduce the number of variables from 29 to 2 to visualize the data.
+4. Outlier observations are removed using sigma_clip() and drop() functions to eliminate the heavy tails of the 'target1' distribution plot.
+
 Finally, the data is split into:
 - train1 (includes all observations from September)
 - train2 (includes all observations from August)
